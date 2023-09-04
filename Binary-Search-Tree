@@ -1,1 +1,29 @@
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+İlk önce, dizinin ilk elemanını kök (root) olarak belirleriz. Kökümüz 7'dir.
+Ardından, diğer elemanları sırayla köke ekleriz, BST kurallarına göre ekleriz.
+5, kökün solundaki ilk düğüm olduğu için kökün sol altına eklenir.
+1, 5'in solundaki ilk düğüm olduğu için 5'in sol altına eklenir.
+8, kökün sağındaki ilk düğüm olduğu için kökün sağına eklenir.
+3, 5'in sağındaki ilk düğüm olduğu için 5'in sağına eklenir.
+6, 3'ün sağındaki ilk düğüm olduğu için 3'ün sağına eklenir.
+0, 1'in solundaki ilk düğüm olduğu için 1'in sol altına eklenir.
+9, 8'in sağındaki ilk düğüm olduğu için 8'in sağına eklenir.
+4, 6'nın solundaki ilk düğüm olduğu için 6'nın sol altına eklenir.
+2, 4'ün sağındaki ilk düğüm olduğu için 4'ün sağına eklenir.
+Bu adımları takip ederek oluşturulan BST'nin aşamaları şu şekildedir:
+
+Kök: 7
+7'nin Solu: 5
+5'in Solu: 1
+1'nin Solu: 0
+1'nin Sağı: 3
+3'nün Sağı: 2
+5'in Sağı: 8
+8'nin Sağı: 9
+5'in Sağı: 6
+6'nın Solu: 4
+
+
+
 
